@@ -47,6 +47,11 @@ export default function App() {
         }}
       >
         <Stack.Screen name="Home" component={Home} />
+        <Stack.Screen
+          name="About"
+          component={About}
+          initialParams={{ sample: "sample" }}
+        />
         <Stack.Screen name="ReviewDetails" component={ReviewDetails} />
       </Stack.Navigator>
     </NavigationContainer>

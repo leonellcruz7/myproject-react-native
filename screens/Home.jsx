@@ -7,7 +7,10 @@ export default function Home({ navigation }) {
     <View style={globalStyles.container}>
       <Text style={globalStyles.titleText}>Home</Text>
 
-      <Button title="About" onPress={() => navigation.navigate("About")} />
+      <Button
+        title="ReviewDetails"
+        onPress={() => navigation.navigate("ReviewDetails")}
+      />
     </View>
   );
 }
